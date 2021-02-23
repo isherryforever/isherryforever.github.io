@@ -4,4 +4,6 @@
 
 打算有时间就整一整，先搞成静态网页，后面学了数据库后再尝试改成动态的。
 
-没时间就直接用博客园了，能用就行![image-20210223113025937](https://gitee.com/yuyang201907/Imags/raw/master/img/image-20210223113025937.png)
+没时间就直接用博客园了，能用就行。
+
+![image-20210223113025937](https://gitee.com/yuyang201907/Imags/raw/master/img/image-20210223113025937.png)
