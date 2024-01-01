@@ -1,0 +1,169 @@
+baseURL = "https://isherryforever.github.io/"
+languageCode = "zh"
+title = "John's blog"
+theme = "Stack"
+paginate = "4"
+copyright = "@John"
+disqusShortname = "hugo-theme-stack"
+googleAnalytics = ""
+hasCJKLanguage = true
+
+[permalinks]
+  post = "/p/:year-:month-:day-:filename/"
+  page = "/:slug/"
+
+[params]
+  mainSections = ["post"]
+  featuredImageField = "image"
+  rssFullContent = true
+  favicon = "/ico.ico"
+  search = true
+
+  [params.footer]
+    since = 2021
+    customText = ""
+
+  [params.sidebar]
+    compact = false
+    emoji = ""
+    subtitle = "Graduate Stu. in Cloud & Virtualization"
+
+    [params.sidebar.avatar]
+      enabled = true
+      local = true
+      src = "img/avatar.png"
+
+    [params.article]
+      math = false
+      toc = true
+      readingTime = true
+      [params.article.license]
+        enabled = false
+        default = "Licensed under CC BY-NC-SA 4.0"
+
+    [params.widgets]
+      [[params.widgets.homepage]]
+	    type = "search"
+	  [[params.widgets.homepage]]
+	    type = "archives"
+	    [params.widgets.homepage.params]
+	      limit = 5
+	  [[params.widgets.homepage]]
+	    type = "tag-cloud"
+	    [params.widgets.homepage.params]
+	      limit = 20
+	  [[params.widgets.page]]
+	    type = "toc"
+
+    [params.defaultImage]
+      [params.defaultImage.opengraph]
+        enabled = false
+        local = false
+        src = ""
+
+    [params.colorScheme]
+	  toggle = false
+      # Available values: auto, light, dark
+      default = "light"
+
+    [params.imageProcessing]
+      [params.imageProcessing.cover]
+        enabled = true
+      [params.imageProcessing.content]
+        enabled = true
+[menu]
+  [[menu.main]]
+    identifier = "/"
+    name = "主页"
+    title = "主页"
+    url = "/"
+    weight = 10
+    [menu.main.params]
+	  icon = "home"
+
+  [[menu.main]]
+    identifier = "plan"
+    name = "规划"
+    title = "规划"
+    url = "/plan/"
+    weight = 20
+    [menu.main.params]
+	  icon = "plan"
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    title = "关于"
+    url = "/about/"
+    weight = 30
+    [menu.main.params]
+	  icon = "about"
+
+  [[menu.main]]
+    identifier = "link"
+    name = "友链"
+    title = "友链"
+    url = "/link/"
+    weight = 40
+    [menu.main.params]
+	  icon = "link"
+
+
+  [[menu.social]]
+	identifier = "github"
+	name = "GitHub"
+	url = "https://github.com/isherryforever"
+  	[menu.social.params]
+	  icon = "brand-github"
+
+  [[menu.social]]
+	identifier = "bilibili"
+	name = "Bilibili"
+	url = "https://space.bilibili.com/551035256"
+	[menu.social.params]
+	  icon = "brand-bilibili"
+
+  [[menu.social]]
+	identifier = "photo"
+	name = "Photo"
+	url = "https://500px.com.cn/isherryforever"
+	[menu.social.params]
+	  icon = "brand-photo"
+	  
+
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "categories"
+    weight = 200
+
+ [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = true
+    startLevel = 2
+
+  [markup.highlight]
+    noClasses = false
+	codeFences = true
+	guessSyntax = true
+	lineNoStart = 1
+	lineNos = true
+	lineNumbersInTable = true
+	tabWidth = 4
+
+
+
+
+
