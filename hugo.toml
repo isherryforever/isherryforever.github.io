@@ -18,10 +18,23 @@ hasCJKLanguage = true
   rssFullContent = true
   favicon = "/ico.ico"
   search = true
+  ShowToc = true
+  TocOpen = true
 
   [params.footer]
     since = 2021
     customText = ""
+  
+  [params.commentsParams]
+    repo = "isherryforever/isherryforever.github.io"
+    repoId = "R_kgDOK_nD-g"
+    category = "Ideas"
+    categoryId = "DIC_kwDOK_nD-s4CcH2W"
+    mapping = "pathname"
+    reactionsEnabled = 1
+    emitMetadata = 1
+    inputPosition = "top"
+    lang = "zh-CN"
 
   [params.sidebar]
     compact = false
@@ -41,9 +54,6 @@ hasCJKLanguage = true
         enabled = false
         default = "Licensed under CC BY-NC-SA 4.0"
 
-    [params.widgets]
-      [[params.widgets.homepage]]
-	    type = "search"
 	  [[params.widgets.homepage]]
 	    type = "archives"
 	    [params.widgets.homepage.params]
