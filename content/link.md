@@ -13,8 +13,8 @@ comments: true
 ico图标：
 http://isherryforever.github.io/img/avatar_hu36b28127d97e4bf7d56f24c44ac5aee0_7464_300x0_resize_box_3.png
 ### 友链
-<a href="https://www.cvzoo.cn/" style="display: inline-block; background-color: #6699FF; padding: 5px 10px; color: white; text-decoration: none;">顺毛师之家</a>
+<a href="https://www.cvzoo.cn/" target="_blank" style="display: inline-block; background-color: #6699FF; padding: 5px 10px; color: white; text-decoration: none;">顺毛师之家</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://frxcat.fun/" style="display: inline-block; background-color: #FFCC33; padding: 5px 10px; color: white; text-decoration: none;">xustudyxu's Blog</a>
+<a href="https://frxcat.fun/" target="_blank" style="display: inline-block; background-color: #FFCC33; padding: 5px 10px; color: white; text-decoration: none;">xustudyxu's Blog</a>
 
 

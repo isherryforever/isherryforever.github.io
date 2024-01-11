@@ -18,23 +18,24 @@ hasCJKLanguage = true
   rssFullContent = true
   favicon = "/ico.ico"
   search = true
-  ShowToc = true
-  TocOpen = true
 
   [params.footer]
     since = 2021
     customText = ""
   
-  [params.commentsParams]
-    repo = "isherryforever/isherryforever.github.io"
-    repoId = "R_kgDOK_nD-g"
-    category = "Ideas"
-    categoryId = "DIC_kwDOK_nD-s4CcH2W"
-    mapping = "pathname"
-    reactionsEnabled = 1
-    emitMetadata = 1
-    inputPosition = "top"
-    lang = "zh-CN"
+  [params.comments]
+    enabled = true
+    provider = "giscus"
+    [params.comments.giscus]
+      repo = "isherryforever/isherryforever.github.io"
+      repoId = "R_kgDOK_nD-g"
+      category = "Ideas"
+      categoryId = "DIC_kwDOK_nD-s4CcH2W"
+      mapping = "pathname"
+      reactionsEnabled = 1
+      emitMetadata = 1
+      inputPosition = "top"
+      lang = "zh-CN"
 
   [params.sidebar]
     compact = false
