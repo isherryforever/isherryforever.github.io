@@ -1,7 +1,7 @@
 ---
 title: "OpenVPN TLS 证书过期问题"
 date: 2023-07-09
-Description: "OpenVPN TLS 证书过期问题"
+Description: ""
 tags: [ "VPN"]
 draft: false
 comments: true

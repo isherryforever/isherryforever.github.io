@@ -1,7 +1,7 @@
 ---
-title: "如何优雅地在Mac使用Anaconda"
+title: "如何优雅地在Mac上使用Anaconda"
 date: 2023-12-23
-Description: "BLANK"
+Description: ""
 tags: [ "Mac", "Python"]
 draft: false
 comments: true
