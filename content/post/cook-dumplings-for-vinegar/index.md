@@ -3,7 +3,7 @@ title: "为了醋包好几顿饺子"
 date: 2024-03-20
 Description: ""
 tags: ["Life"]
-draft: false
+draft: true
 comments: true
 ---
 某多次深陷消费主义陷阱而不自知，顺手买了很多没啥用的东西，但最终也并没有用到这些东西本来的功能。 
