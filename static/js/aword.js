@@ -9,12 +9,13 @@
     }
     time = 40000;
     arr = [];
-    arr[0] = '仰望星空，脚踏实地';
-    arr[1] = '海内存知己，天涯若比邻';
-    arr[2] = 'Flee as a bird to your mountain.';
-    arr[3] = 'I would rather share one life time with you, than face all the ages of this world alone.';
-    arr[4] = '随风潜入夜，润物细无声';
-    arr[5] = '我见过那样的春天，大地飞花，你在面前';
+    arr[0] = '是非在己，毁誉由人，得失不论';
+    // arr[0] = '仰望星空，脚踏实地';
+    // arr[1] = '海内存知己，天涯若比邻';
+    // arr[2] = 'Flee as a bird to your mountain.';
+    // arr[3] = 'I would rather share one life time with you, than face all the ages of this world alone.';
+    // arr[4] = '随风潜入夜，润物细无声';
+    // arr[5] = '我见过那样的春天，大地飞花，你在面前';
     function random() {
         var i, num;
         /*jslint plusplus: true */

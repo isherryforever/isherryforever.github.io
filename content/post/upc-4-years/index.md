@@ -3,7 +3,7 @@ title: "本科四年总结"
 date: 2022-06-28
 Description: "是非在己，毁誉由人，得失不论"
 tags: ["Life"]
-draft: false
+draft: true
 comments: true
 ---
 

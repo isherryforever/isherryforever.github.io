@@ -3,7 +3,7 @@ title: "随遇而安"
 date: 2024-01-16
 Description: ""
 tags: ["Life"]
-draft: false
+draft: true
 comments: true
 ---
 > 今天在公司Mentor和我聊了性格和上升空间之间的关系，其中混合着较多的PUA话术，没完全懂，但感觉有一部分是正确的，结合最近的思路简单记录一下。
