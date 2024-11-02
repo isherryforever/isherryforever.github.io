@@ -3,7 +3,7 @@ title: "减少使用Ctrl+S"
 date: 2024-08-08
 Description: "编码坏习惯"
 tags: ["Life"]
-draft: false
+draft: true
 comments: true
 ---
 某在使用IDE或Office软件的时候总会不自觉的用Ctrl+S来保存文件，使用频率很高，有时写一两行就保存一下。
