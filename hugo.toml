@@ -40,7 +40,7 @@ hasCJKLanguage = true
   [params.sidebar]
     compact = false
     emoji = ""
-    subtitle = "Graduate Stu. in Cloud & Virtualization"
+    subtitle = "和光同尘，与时舒卷."
 
     [params.sidebar.avatar]
       enabled = true
@@ -127,12 +127,12 @@ hasCJKLanguage = true
   	[menu.social.params]
 	  icon = "brand-github"
 
-  [[menu.social]]
-	identifier = "bilibili"
-	name = "Bilibili"
-	url = "https://space.bilibili.com/551035256"
-	[menu.social.params]
-	  icon = "brand-bilibili"
+  # [[menu.social]]
+	# identifier = "bilibili"
+	# name = "Bilibili"
+	# url = "https://space.bilibili.com/551035256"
+	# [menu.social.params]
+	  # icon = "brand-bilibili"
 
   [[menu.social]]
 	identifier = "photo"
